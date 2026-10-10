@@ -1,0 +1,1 @@
+export default function Navbar({title,status}:{title:string;status:string}){return <header className="top"><div><h1>{title}</h1><div className="muted">Retail demand and inventory planning</div></div><span className="pill">{status}</span></header>}

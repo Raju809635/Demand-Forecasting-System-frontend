@@ -1,0 +1,1 @@
+import axios from "axios";const host=typeof window!=="undefined"?window.location.hostname:"localhost";export default axios.create({baseURL:import.meta.env.VITE_API_BASE_URL||`http://${host}:8000/api`,timeout:15000});
